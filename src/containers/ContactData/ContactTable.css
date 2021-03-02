@@ -1,0 +1,54 @@
+.Display {
+  align-items: center;
+}
+
+.Table table {
+  /* display: inherit; */
+  border: 2px solid black;
+  margin: 1em;
+  width: 65%;
+  margin-left: 14em;
+}
+
+.Table td,
+.Table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.Table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.Table tr:hover {
+  background-color: #ddd;
+}
+
+.Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #f1b131;
+  color: white;
+}
+
+.AddButton {
+  background-color: rgb(9, 177, 18);
+  color: #fff;
+  font-weight: bold;
+}
+.AddControl > button {
+  right: 12%;
+  padding: 5px;
+  margin: 0 5px;
+  width: 80px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+.AddButton:hover,
+.AddButton:active {
+  background-color: #02790b;
+  color: white;
+}
